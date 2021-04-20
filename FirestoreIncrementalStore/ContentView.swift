@@ -20,7 +20,11 @@ struct ContentView: View {
         NavigationView {
             List {
                 ForEach(items) { item in
-                    Text("Item at \(item.timestamp ?? Date(), formatter: itemFormatter)")
+                    if let timestamp = item.timestamp {
+                    Text("Item at \(timestamp, formatter: itemFormatter)")
+                    } else {
+                        Text("Timestamp missing")
+                    }
                 }
                 .onDelete(perform: deleteItems)
             }
