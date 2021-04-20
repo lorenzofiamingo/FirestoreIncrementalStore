@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A65DCD7D2627AFD800AED7C0 /* FirestoreIncrementalStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65DCD7C2627AFD800AED7C0 /* FirestoreIncrementalStoreApp.swift */; };
+		A65DCD7F2627AFD800AED7C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65DCD7E2627AFD800AED7C0 /* ContentView.swift */; };
+		A65DCD812627AFDF00AED7C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A65DCD802627AFDF00AED7C0 /* Assets.xcassets */; };
+		A65DCD842627AFDF00AED7C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A65DCD832627AFDF00AED7C0 /* Preview Assets.xcassets */; };
+		A65DCD862627AFDF00AED7C0 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65DCD852627AFDF00AED7C0 /* Persistence.swift */; };
+		A65DCD892627AFDF00AED7C0 /* FirestoreIncrementalStore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A65DCD872627AFDF00AED7C0 /* FirestoreIncrementalStore.xcdatamodeld */; };
+		A65DCD932627B1A000AED7C0 /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = A65DCD922627B1A000AED7C0 /* FirebaseFirestoreSwift-Beta */; };
+		A65DCD952627B1A000AED7C0 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = A65DCD942627B1A000AED7C0 /* FirebaseStorage */; };
+		A65DCD972627B1A000AED7C0 /* FirebaseStorageSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = A65DCD962627B1A000AED7C0 /* FirebaseStorageSwift-Beta */; };
+		A65DCD992627B1A000AED7C0 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = A65DCD982627B1A000AED7C0 /* FirebaseFirestore */; };
+		A65DCD9B2627B1A000AED7C0 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = A65DCD9A2627B1A000AED7C0 /* FirebaseAuth */; };
+		A65DCD9E2627B45C00AED7C0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A65DCD9D2627B45C00AED7C0 /* GoogleService-Info.plist */; };
+		A6FA4FC8262F347F003B274A /* NSFirebaseStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FA4FC7262F347F003B274A /* NSFirebaseStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A65DCD792627AFD800AED7C0 /* FirestoreIncrementalStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirestoreIncrementalStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A65DCD7C2627AFD800AED7C0 /* FirestoreIncrementalStoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreIncrementalStoreApp.swift; sourceTree = "<group>"; };
+		A65DCD7E2627AFD800AED7C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A65DCD802627AFDF00AED7C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A65DCD832627AFDF00AED7C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A65DCD852627AFDF00AED7C0 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		A65DCD882627AFDF00AED7C0 /* FirestoreIncrementalStore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FirestoreIncrementalStore.xcdatamodel; sourceTree = "<group>"; };
+		A65DCD8A2627AFDF00AED7C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A65DCD9D2627B45C00AED7C0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A6FA4FC7262F347F003B274A /* NSFirebaseStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSFirebaseStore.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A65DCD762627AFD800AED7C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65DCD932627B1A000AED7C0 /* FirebaseFirestoreSwift-Beta in Frameworks */,
+				A65DCD9B2627B1A000AED7C0 /* FirebaseAuth in Frameworks */,
+				A65DCD992627B1A000AED7C0 /* FirebaseFirestore in Frameworks */,
+				A65DCD952627B1A000AED7C0 /* FirebaseStorage in Frameworks */,
+				A65DCD972627B1A000AED7C0 /* FirebaseStorageSwift-Beta in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A65DCD702627AFD700AED7C0 = {
+			isa = PBXGroup;
+			children = (
+				A65DCD7B2627AFD800AED7C0 /* FirestoreIncrementalStore */,
+				A65DCD7A2627AFD800AED7C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A65DCD7A2627AFD800AED7C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A65DCD792627AFD800AED7C0 /* FirestoreIncrementalStore.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A65DCD7B2627AFD800AED7C0 /* FirestoreIncrementalStore */ = {
+			isa = PBXGroup;
+			children = (
+				A65DCD7C2627AFD800AED7C0 /* FirestoreIncrementalStoreApp.swift */,
+				A65DCD7E2627AFD800AED7C0 /* ContentView.swift */,
+				A65DCD802627AFDF00AED7C0 /* Assets.xcassets */,
+				A65DCD852627AFDF00AED7C0 /* Persistence.swift */,
+				A6FA4FC7262F347F003B274A /* NSFirebaseStore.swift */,
+				A65DCD8A2627AFDF00AED7C0 /* Info.plist */,
+				A65DCD872627AFDF00AED7C0 /* FirestoreIncrementalStore.xcdatamodeld */,
+				A65DCD9D2627B45C00AED7C0 /* GoogleService-Info.plist */,
+				A65DCD822627AFDF00AED7C0 /* Preview Content */,
+			);
+			path = FirestoreIncrementalStore;
+			sourceTree = "<group>";
+		};
+		A65DCD822627AFDF00AED7C0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A65DCD832627AFDF00AED7C0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A65DCD782627AFD800AED7C0 /* FirestoreIncrementalStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A65DCD8D2627AFDF00AED7C0 /* Build configuration list for PBXNativeTarget "FirestoreIncrementalStore" */;
+			buildPhases = (
+				A65DCD752627AFD800AED7C0 /* Sources */,
+				A65DCD762627AFD800AED7C0 /* Frameworks */,
+				A65DCD772627AFD800AED7C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirestoreIncrementalStore;
+			packageProductDependencies = (
+				A65DCD922627B1A000AED7C0 /* FirebaseFirestoreSwift-Beta */,
+				A65DCD942627B1A000AED7C0 /* FirebaseStorage */,
+				A65DCD962627B1A000AED7C0 /* FirebaseStorageSwift-Beta */,
+				A65DCD982627B1A000AED7C0 /* FirebaseFirestore */,
+				A65DCD9A2627B1A000AED7C0 /* FirebaseAuth */,
+			);
+			productName = FirestoreIncrementalStore;
+			productReference = A65DCD792627AFD800AED7C0 /* FirestoreIncrementalStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A65DCD712627AFD700AED7C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					A65DCD782627AFD800AED7C0 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = A65DCD742627AFD700AED7C0 /* Build configuration list for PBXProject "FirestoreIncrementalStore" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A65DCD702627AFD700AED7C0;
+			packageReferences = (
+				A65DCD912627B1A000AED7C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = A65DCD7A2627AFD800AED7C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A65DCD782627AFD800AED7C0 /* FirestoreIncrementalStore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A65DCD772627AFD800AED7C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65DCD842627AFDF00AED7C0 /* Preview Assets.xcassets in Resources */,
+				A65DCD812627AFDF00AED7C0 /* Assets.xcassets in Resources */,
+				A65DCD9E2627B45C00AED7C0 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A65DCD752627AFD800AED7C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6FA4FC8262F347F003B274A /* NSFirebaseStore.swift in Sources */,
+				A65DCD892627AFDF00AED7C0 /* FirestoreIncrementalStore.xcdatamodeld in Sources */,
+				A65DCD862627AFDF00AED7C0 /* Persistence.swift in Sources */,
+				A65DCD7F2627AFD800AED7C0 /* ContentView.swift in Sources */,
+				A65DCD7D2627AFD800AED7C0 /* FirestoreIncrementalStoreApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A65DCD8B2627AFDF00AED7C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A65DCD8C2627AFDF00AED7C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A65DCD8E2627AFDF00AED7C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FirestoreIncrementalStore/Preview Content\"";
+				DEVELOPMENT_TEAM = UB6UMQ5PGD;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FirestoreIncrementalStore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lorenzofiamingo.FirestoreIncrementalStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A65DCD8F2627AFDF00AED7C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FirestoreIncrementalStore/Preview Content\"";
+				DEVELOPMENT_TEAM = UB6UMQ5PGD;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FirestoreIncrementalStore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lorenzofiamingo.FirestoreIncrementalStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A65DCD742627AFD700AED7C0 /* Build configuration list for PBXProject "FirestoreIncrementalStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A65DCD8B2627AFDF00AED7C0 /* Debug */,
+				A65DCD8C2627AFDF00AED7C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A65DCD8D2627AFDF00AED7C0 /* Build configuration list for PBXNativeTarget "FirestoreIncrementalStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A65DCD8E2627AFDF00AED7C0 /* Debug */,
+				A65DCD8F2627AFDF00AED7C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A65DCD912627B1A000AED7C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A65DCD922627B1A000AED7C0 /* FirebaseFirestoreSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A65DCD912627B1A000AED7C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreSwift-Beta";
+		};
+		A65DCD942627B1A000AED7C0 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A65DCD912627B1A000AED7C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		A65DCD962627B1A000AED7C0 /* FirebaseStorageSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A65DCD912627B1A000AED7C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageSwift-Beta";
+		};
+		A65DCD982627B1A000AED7C0 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A65DCD912627B1A000AED7C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		A65DCD9A2627B1A000AED7C0 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A65DCD912627B1A000AED7C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		A65DCD872627AFDF00AED7C0 /* FirestoreIncrementalStore.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A65DCD882627AFDF00AED7C0 /* FirestoreIncrementalStore.xcdatamodel */,
+			);
+			currentVersion = A65DCD882627AFDF00AED7C0 /* FirestoreIncrementalStore.xcdatamodel */;
+			path = FirestoreIncrementalStore.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A65DCD712627AFD700AED7C0 /* Project object */;
+}
